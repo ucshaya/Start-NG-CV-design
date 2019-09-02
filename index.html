@@ -1,5 +1,4 @@
 <!DOCTYPE html>
-
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -83,8 +82,40 @@
             </ul>
         </section>
     </section>
-
+    
+    <div id="modal-with-form" class="contact-modal hide-modal">
+        <div class="container">  
+                <form id="contact-form">
+                  <h3>Wanna reach me?.</h3>
+                  <h4>Fill this form and get reply with in 24 hours!</h4>
+                  <span id="close-btn">&times;</span>
+                  <fieldset>
+                    <input type="text" id="name" required autofocus>
+                    <label for="name">Your Name</label>
+                  </fieldset>
+                  <fieldset>
+                    <input type="text" id="email" required>
+                    <label for="email">Your Email Address</label>
+                  </fieldset>
+                  <fieldset>
+                    <input type="tel" id="tel" required>
+                    <label for="tel">Your Phone Number</label>
+                  </fieldset>
+                 
+                  <fieldset>
+                    <textarea id="message" required placeholder="Type your message here..."></textarea>
+                  </fieldset>
+                  <fieldset>
+                    <button name="submit" id="contact-submit">Submit</button>
+                  </fieldset>
+                </form>
+              </div>
+            </div>
+        <div class="contact-modal-open-btn">
+            <h2>Contact me.</h2>
+        </div>
     <footer>Made By Codetective &copy; 2019</footer>
+    <script src="test.js"></script>
 </body>
 
 </html>
