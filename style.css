@@ -445,25 +445,7 @@ fieldset {
 }
 
 
-label{
-    position: absolute;
-    top: -2px;
-    transform: translateY(18px);
-    transition: transform .3s linear;
-}
 
-#contact-form input[type="text"]:focus ~ label, 
-#contact-form input[type="email"]:focus ~ label, 
-#contact-form input[type="tel"]:focus ~ label{
-    transform: translateY(0);
-    transition: transform .3s linear;
-}
-#contact-form input[type="text"]:valid ~ label, 
-#contact-form input[type="email"]:valid ~ label, 
-#contact-form input[type="tel"]:valid ~ label{
-    transform: translateY(0);
-    transition: transform .3s linear;
-}
 #close-btn{
     position: absolute;
     top: 0px;
